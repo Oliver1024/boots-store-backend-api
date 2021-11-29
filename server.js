@@ -21,7 +21,10 @@ const isAuthenticated = ({ email, password }) => {
 }
 
 const isEmailExisted = (email) => {
+    
+    console.log(getUsersDb().users.findIndex(user => user.email === email))
     return getUsersDb().users.findIndex(user => user.email === email) !== -1;
+
 }
 
 const isNicknameExisted = (nickname) => {
@@ -52,16 +55,20 @@ server.post('/auth/login', (req, res) => {
 // Register New User
 server.post('/auth/register', (req, res) => {
     const { email, password, nickname, type } = req.body;
-
+    // return res.json(getUsersDb().users.findIndex(user => user.email === email));
+    
     // check if user is already registered
     if (isEmailExisted(email)) {
         const status = 401;
         const message = 'Email already exist';
+        res.send('')
         return res.status(status).json({ status, message });
     } else if (isNicknameExisted(nickname)) {
         const status = 401;
         const message = 'Nickname already exist';
+
         return res.status(status).json({ status, message });
+
     }
 
     fs.readFile(path.join(__dirname, 'users.json'), (err, _data) => {

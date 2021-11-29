@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "name": "boos-store-api",
+    "name": "boots-store-api",
     "builds": [
         {
             "src": "server.js",

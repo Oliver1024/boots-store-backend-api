@@ -1,20 +1,12 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "Air Jordan 11",
-      "price": "12000",
-      "tags": "92 ",
-      "image": "/images/1.jpg",
-      "status": "available"
-    },
-    {
       "id": 2,
       "name": "Nike Paul George PG 3",
-      "image": "/images/2.jpg",
-      "tags": "25 Colors",
       "price": "18000",
-      "status": "unavailable"
+      "tags": "25 Colors",
+      "image": "/images/2.jpg",
+      "status": "available"
     },
     {
       "id": 3,
@@ -127,42 +119,23 @@
       "image": "https://www.shoecarnival.com/dw/image/v2/BBSZ_PRD/on/demandware.static/-/Sites-scvl-master-catalog/default/dw5eb1ba0c/103543_228194_1.jpg?sw=700&sh=593&sm=fit",
       "status": "available",
       "id": 16
+    },
+    {
+      "name": "Men's Nike Kyrie Flytrap IV Basketball Shoes",
+      "price": "9000",
+      "tags": "Basketball",
+      "image": "https://www.shoecarnival.com/dw/image/v2/BBSZ_PRD/on/demandware.static/-/Sites-scvl-master-catalog/default/dwe3e1eacd/109518_242045_1.jpg?sw=700&sh=593&sm=fit",
+      "status": "available",
+      "id": 17
     }
   ],
   "carts": [
-    {
-      "productId": 3,
-      "name": "Jordan Why Not Zer0.2",
-      "image": "/images/3.jpg",
-      "price": "22000",
-      "amount": 4,
-      "userId": "admin@163.com",
-      "id": 1
-    },
-    {
-      "productId": 4,
-      "name": "Nike Air Foamposite One",
-      "image": "/images/4.jpg",
-      "price": "12099",
-      "amount": 9,
-      "userId": "admin@163.com",
-      "id": 2
-    },
-    {
-      "productId": 1,
-      "name": "Air Jordan 11",
-      "image": "/images/1.jpg",
-      "price": "12000",
-      "amount": 10,
-      "userId": "test@abc.com",
-      "id": 3
-    },
     {
       "productId": 5,
       "name": "adidas Harden Vol.3",
       "image": "/images/5.jpg",
       "price": "13999",
-      "amount": 3,
+      "amount": 5,
       "userId": "test@abc.com",
       "id": 4
     },
@@ -171,18 +144,9 @@
       "name": "Nike Zoom Kobe 1",
       "image": "/images/6.jpg",
       "price": "19999",
-      "amount": 3,
+      "amount": 7,
       "userId": "test@abc.com",
       "id": 5
-    },
-    {
-      "productId": 11,
-      "name": "Nike Kyrie Flytrap",
-      "image": "/images/11.jpg",
-      "price": "19999",
-      "amount": 5,
-      "userId": "admin@163.com",
-      "id": 6
     },
     {
       "productId": 10,
@@ -207,7 +171,7 @@
       "name": "Nike Hyperdunk X(2018)",
       "image": "/images/7.jpg",
       "price": "17999",
-      "amount": 2,
+      "amount": 9,
       "userId": "oliver@gmaiil.com",
       "id": 9
     },
@@ -228,6 +192,42 @@
       "amount": 1,
       "userId": "oliver@gmaiil.com",
       "id": 11
+    },
+    {
+      "productId": 4,
+      "name": "Nike Air Foamposite One",
+      "image": "/images/4.jpg",
+      "price": "12099",
+      "amount": 0,
+      "userId": "admin@163.com",
+      "id": 12
+    },
+    {
+      "productId": 2,
+      "name": "Nike Paul George PG 3",
+      "image": "/images/2.jpg",
+      "price": "18000",
+      "amount": 0,
+      "userId": "admin@163.com",
+      "id": 13
+    },
+    {
+      "productId": 3,
+      "name": "Jordan Why Not Zer0.2",
+      "image": "/images/3.jpg",
+      "price": "22000",
+      "amount": 10,
+      "userId": "admin@163.com",
+      "id": 14
+    },
+    {
+      "productId": 11,
+      "name": "Nike Kyrie Flytrap",
+      "image": "/images/11.jpg",
+      "price": "19999",
+      "amount": 1,
+      "userId": "admin@163.com",
+      "id": 15
     }
   ]
 }
